@@ -45,4 +45,4 @@ const calculator = {
   divide,
 };
 
-module.exports = calculator;
+export default calculator;

@@ -1,4 +1,4 @@
-const calculator = require("./calculator");
+import calculator from "./calculator";
 
 test('"5 + 8 should be 13"', () => {
   expect(calculator.add(5, 8)).toBe(13);
